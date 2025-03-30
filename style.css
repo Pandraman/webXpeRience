@@ -1,0 +1,34 @@
+html, body 
+{ 
+    width: 100%; 
+    height: 100%;
+    margin: 0; 
+    overflow: hidden; 
+    font-family: 'Courier New', Courier, monospace;
+}
+canvas 
+{ 
+    width: 100%; 
+    height: 100%; 
+    display: block; 
+}
+#controls 
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+textarea 
+{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+button 
+{
+    display: block;
+    width: 100%;
+}
